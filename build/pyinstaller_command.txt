@@ -1,0 +1,1 @@
+pyinstaller --add-data "data/Excel Files/*;data/Excel Files" --add-data "binaries/*;binaries" --add-data "src/tasks/email_task/redmail/email/templates/html/table/*;src/tasks/email_task/redmail/email/templates/html/table" --add-data "src/tasks/email_task/redmail/email/templates/text/table/*;src/tasks/email_task/redmail/email/templates/text/table" --onefile run.py  
